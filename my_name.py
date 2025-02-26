@@ -1,11 +1,15 @@
-def pass(word):
-    match word:
-        case "1111":
-            print("Не совсем")
+def enter(word):
+    while(True):
+        match word:
+            case "1111":
+                print("Не совсем")
+            case "pucbka":
+                print("Правильно")
+                return print("Пока!")
 
 match input("Кто ты, воин?"):
     case "password":
-        input("Ну и какой пэссворд?")
+        enter(input("Ну и какой пэссворд?"))
     case "pucbka":
         print("tbI pucbka")
     case "писька":
