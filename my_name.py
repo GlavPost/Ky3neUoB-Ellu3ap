@@ -1,4 +1,6 @@
 match input("Кто ты, воин?"):
+    case "password":
+        input("Ну и какой пэссворд?")
     case "pucbka":
         print("tbI pucbka")
     case "писька":
