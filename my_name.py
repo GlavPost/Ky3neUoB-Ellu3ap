@@ -1,3 +1,8 @@
+def pass(word):
+    match word:
+        case "1111":
+            print("Не совсем")
+
 match input("Кто ты, воин?"):
     case "password":
         input("Ну и какой пэссворд?")
